@@ -12,14 +12,9 @@ from .application import App
 
 
 @click.command()
-@click.argument('first_name')
-@click.argument('last_name')
-@click.option('--verbose', is_flag=True, help="Will print verbose messages.")
-def hello_world(first_name, last_name, verbose):
+def download():
     app = App()
-    if verbose:
-        print("Performing hello world.")
-    print(app.get_hello_world(first_name, last_name))
+    print(app.download())
 
 
 @click.group()
@@ -28,7 +23,7 @@ def main(args=None):
     logging.basicConfig(stream=sys.stderr, level=logging.INFO)
 
 
-main.add_command(hello_world)
+main.add_command(download)
 
 
 if __name__ == "__main__":

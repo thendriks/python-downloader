@@ -1,6 +1,6 @@
 import pytest
 
-from workshop_ci.application import App
+from python_downloader.application import App
 
 
 @pytest.fixture

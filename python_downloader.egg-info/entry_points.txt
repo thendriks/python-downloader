@@ -1,0 +1,3 @@
+[console_scripts]
+python_downloader = python_downloader.__main__:main
+

@@ -10,17 +10,17 @@ from setuptools import setup, find_packages
 
 setup(
     version='0.0.1',
-    name='workshop_ci',
+    name='python_downloader',
     license='MIT License',
     description='A sample application to test GitHub actions',
     author='Firstname Lastname',
     author_email='my.email@protonmail.com',
-    url='https://github.com/MaastrichtU-IDS/workshop-ci-template',
-    packages=find_packages(include=['workshop_ci']),
-    package_dir={'workshop_ci': 'workshop_ci'},
+    url='https://github.com/MaastrichtU-IDS/python-downloader-template',
+    packages=find_packages(include=['python_downloader']),
+    package_dir={'python_downloader': 'python_downloader'},
     entry_points={
         'console_scripts': [
-            'workshop_ci=workshop_ci.__main__:main',
+            'python_downloader=python_downloader.__main__:main',
         ],
     },
 

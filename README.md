@@ -1,6 +1,6 @@
 # CI Workshop Template
 
-This template was created to be used in the IDS [CI workshop](https://maastrichtu-ids.github.io/workshop-ci/)
+This template was created to be used in the IDS [CI workshop](https://maastrichtu-ids.github.io/python-downloader/)
 
 `Add workflow pass badges`
 
